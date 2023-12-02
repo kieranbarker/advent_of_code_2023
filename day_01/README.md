@@ -23,6 +23,28 @@ treb7uchet
 
 In this example, the calibration values of these four lines are `12`, `38`, `15`, and 1. Adding these together produces `142`.
 
+## Part 1 ⭐
+
 Consider your entire calibration document. _What is the sum of all of the calibration values?_
 
 Your puzzle answer was `52974`.
+
+## Part 2 ⭐⭐
+
+Your calculation isn't quite right. It looks like some of the digits are actually _spelled out with letters_: `one`, `two`, `three`, `four`, `five`, `six`, `seven`, `eight`, and `nine` _also_ count as valid "digits".
+
+Equipped with this new information, you now need to find the real first and last digit on each line. For example:
+
+```
+two1nine
+eightwothree
+abcone2threexyz
+xtwone3four
+4nineeightseven2
+zoneight234
+7pqrstsixteen
+```
+
+In this example, the calibration values are `29`, `83`, `13`, `24`, `42`, `14`, and `76`. Adding these together produces `281`.
+
+_What is the sum of all of the calibration values?_
