@@ -20,6 +20,8 @@ for line in lines:
             quantity = int(quantity)
             cube_count[color].append(quantity)
 
+    # This is a little confusing, but the `max()` function is used because the
+    # largest (max) number is the minimum number of cubes needed.
     min_red = max(cube_count["red"])
     min_blue = max(cube_count["blue"])
     min_green = max(cube_count["green"])
