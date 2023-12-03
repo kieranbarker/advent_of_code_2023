@@ -11,3 +11,8 @@ My solutions to [Advent of Code 2023](https://adventofcode.com/2023). JavaScript
 
 -   [x] Part 1
 -   [x] Part 2
+
+## Day 3: Gear Ratios
+
+-   [ ] Part 1
+-   [ ] Part 2
