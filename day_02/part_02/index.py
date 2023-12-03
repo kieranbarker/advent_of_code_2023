@@ -8,7 +8,6 @@ powers = []
 
 for line in lines:
     _, cubes = line.split(": ")
-
     rounds = cubes.split("; ")
     cube_count = {"red": [], "green": [], "blue": []}
 
