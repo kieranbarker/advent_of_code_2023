@@ -22,7 +22,7 @@ for line in lines:
 
     if number_of_matches > 0:
         # We subtract 1 because the power is the number of times we want to
-        # double the value. E.g. if we had 1,4,2,8, the number of matches would
+        # double the value. E.g. if we had 1,2,4,8, the number of matches would
         # be 4 while the number of doubles would be 3.
         points = 2 ** (number_of_matches - 1)
         card_points.append(points)
