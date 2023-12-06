@@ -71,3 +71,5 @@ Distance:  940200
 Now, you have to figure out how many ways there are to win this single race. In this example, the race lasts for _`71530` milliseconds_ and the record distance you need to beat is _`940200` millimeters_. You could hold the button anywhere from `14` to `71516` milliseconds and beat the record, a total of _`71503`_ ways!
 
 _How many ways can you beat the record in this one much longer race?_
+
+Your puzzle answer was `24655068`.
