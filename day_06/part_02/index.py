@@ -5,10 +5,10 @@ path = Path(__file__).parents[1] / "input.txt"
 contents = path.read_text()
 time, distance = contents.splitlines()
 
-_, *time = re.split(" +", time)
+time = re.split(" +", time)[1:]
 time = int("".join(time))
 
-_, *distance = re.split(" +", distance)
+distance = re.split(" +", distance)[1:]
 distance = int("".join(distance))
 
 possibilities = []

@@ -8,7 +8,7 @@ lines = contents.splitlines()
 card_points = []
 
 for line in lines:
-    _, numbers = re.split(": +", line)
+    numbers = re.split(": +", line)[1]
     winning_numbers, our_numbers = re.split(" \| +", numbers)
 
     winning_numbers = re.split(" +", winning_numbers)

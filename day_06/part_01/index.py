@@ -6,8 +6,8 @@ path = Path(__file__).parents[1] / "input.txt"
 contents = path.read_text()
 times, distances = contents.splitlines()
 
-_, *times = re.split(" +", times)
-_, *distances = re.split(" +", distances)
+times = re.split(" +", times)[1:]
+distances = re.split(" +", distances)[1:]
 
 possibilities_per_race = []
 

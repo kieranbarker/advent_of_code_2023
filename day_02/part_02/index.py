@@ -7,7 +7,7 @@ lines = contents.splitlines()
 powers = []
 
 for line in lines:
-    _, cubes = line.split(": ")
+    cubes = line.split(": ")[1]
     rounds = cubes.split("; ")
     cube_count = {"red": [], "green": [], "blue": []}
 
