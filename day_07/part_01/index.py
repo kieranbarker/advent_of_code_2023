@@ -51,11 +51,9 @@ def compare(a, b):
     if diff != 0:
         return diff
 
-    # This clearly ain't workin'!
     for i in range(5):
         card_a = a[0][i]
         card_b = b[0][i]
-        print(card_a, card_b)
 
         score_a = cards.index(card_a)
         score_b = cards.index(card_b)
@@ -68,9 +66,6 @@ def compare(a, b):
 
 lines.sort(key=compare)
 
-for line in lines:
-    print(line)
-
 winnings = 0
 
 for index, line in enumerate(lines):
@@ -78,4 +73,4 @@ for index, line in enumerate(lines):
     bid = line[1]
     winnings += rank * bid
 
-print(winnings)  # 246676029 is wrong
+print(winnings)
