@@ -25,8 +25,8 @@ hand_types = (
     (1, 1, 1, 1, 1),  # high card
     (1, 1, 1, 2),  # one pair
     (1, 2, 2),  # two pair
-    (2, 3),  # full house
     (1, 1, 3),  # three of a kind
+    (2, 3),  # full house
     (1, 4),  # four of a kind
     (5,),  # five of a kind
 )
