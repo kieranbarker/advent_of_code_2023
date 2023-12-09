@@ -5,16 +5,13 @@ contents = path.read_text()
 
 directions, nodes = contents.split("\n\n")
 nodes = [node.split(" = ") for node in nodes.splitlines()]
-nodes = {label: node[1:-1].split(", ") for (label, node) in nodes}
+nodes = {label: node[1:-1].split(", ") for label, node in nodes}
 
 current_node = nodes["AAA"]
 step_count = 0
 
 while current_node is not nodes["ZZZ"]:
     for dir in directions:
-        step_count += 1
-        index = None
-
         if dir == "L":
             index = 0
         elif dir == "R":
@@ -22,5 +19,6 @@ while current_node is not nodes["ZZZ"]:
 
         next_label = current_node[index]
         current_node = nodes[next_label]
+        step_count += 1
 
 print(step_count)
