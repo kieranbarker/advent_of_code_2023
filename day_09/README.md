@@ -125,3 +125,5 @@ Adding the new values on the left side of each sequence from bottom to top event
 Doing this for the remaining example data above results in previous values of _`-3`_ for the first history and _`0`_ for the second history. Adding all three new values together produces _`2`_.
 
 Analyze your OASIS report again, this time extrapolating the previous value for each history. _What is the sum of these extrapolated values?_
+
+Your puzzle answer was `1050`.
