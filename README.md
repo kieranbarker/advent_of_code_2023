@@ -46,3 +46,8 @@ My solutions to [Advent of Code 2023](https://adventofcode.com/2023). JavaScript
 
 -   [x] Part 1
 -   [x] Part 2
+
+## Day 10: Pipe Maze
+
+-   [ ] Part 1
+-   [ ] Part 2
