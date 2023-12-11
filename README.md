@@ -44,5 +44,5 @@ My solutions to [Advent of Code 2023](https://adventofcode.com/2023). JavaScript
 
 ## Day 9: Mirage Maintenance
 
--   [ ] Part 1
+-   [x] Part 1
 -   [ ] Part 2

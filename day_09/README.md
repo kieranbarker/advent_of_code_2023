@@ -96,4 +96,32 @@ So, the next value of the third history is _`68`_.
 
 If you find the next value for each history in this example and add them together, you get _`114`_.
 
+## Part 1 ⭐
+
 Analyze your OASIS report and extrapolate the next value for each history. _What is the sum of these extrapolated values?_
+
+Your puzzle answer was `1708206096`.
+
+## Part 2 ⭐⭐
+
+Of course, it would be nice to have _even more history_ included in your report. Surely it's safe to just _extrapolate backwards_ as well, right?
+
+For each history, repeat the process of finding differences until the sequence of differences is entirely zero. Then, rather than adding a zero to the end and filling in the next values of each previous sequence, you should instead add a zero to the _beginning_ of your sequence of zeroes, then fill in new _first_ values for each previous sequence.
+
+In particular, here is what the third example history looks like when extrapolating back in time:
+
+<pre>
+<code>
+<em>5</em>  10  13  16  21  30  45
+  <em>5</em>   3   3   5   9  15
+   <em>-2</em>   0   2   4   6
+      <em>2</em>   2   2   2
+        <em>0</em>   0   0
+</code>
+</pre>
+
+Adding the new values on the left side of each sequence from bottom to top eventually reveals the new left-most history value: _`5`_.
+
+Doing this for the remaining example data above results in previous values of _`-3`_ for the first history and _`0`_ for the second history. Adding all three new values together produces _`2`_.
+
+Analyze your OASIS report again, this time extrapolating the previous value for each history. _What is the sum of these extrapolated values?_

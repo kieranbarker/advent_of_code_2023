@@ -1,6 +1,6 @@
 from pathlib import Path
 
-path = Path(__file__).parents[1] / "sample.txt"
+path = Path(__file__).parents[1] / "input.txt"
 contents = path.read_text()
 lines = contents.splitlines()
 lines = [[int(n) for n in line.split(" ")] for line in lines]
@@ -14,7 +14,7 @@ def get_differences(line: list[int]) -> list[int]:
         j = i + 1
 
         if j < line_length:
-            diff = abs(line[i] - line[j])
+            diff = line[j] - line[i]
             differences.append(diff)
 
     return differences
@@ -47,4 +47,4 @@ total = 0
 for sequence in sequences:
     total += sequence[-1][-1]
 
-print(total)  # Works for the sample input but not the actual input :')
+print(total)
