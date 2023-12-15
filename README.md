@@ -51,3 +51,23 @@ My solutions to [Advent of Code 2023](https://adventofcode.com/2023). JavaScript
 
 -   [ ] Part 1
 -   [ ] Part 2
+
+## Day 11: Cosmic Expansion
+
+-   [ ] Part 1
+-   [ ] Part 2
+
+## Day 12: Hot Springs
+
+-   [ ] Part 1
+-   [ ] Part 2
+
+## Day 13: Point of Incidence
+
+-   [ ] Part 1
+-   [ ] Part 2
+
+## Day 14: Parabolic Reflector Dish
+
+-   [ ] Part 1
+-   [ ] Part 2
